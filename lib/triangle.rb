@@ -19,17 +19,19 @@ def kind
 
 
 
-  elsif ((@s1 == @s2) && (@s1 == @s3) && (@s2 == @s3))
-    return :equilateral
-  elsif ((@s1 == @s2) || (@s1 == @s3) || (@s2 == @s3))
-    return :isosceles
-  else
-    return :scalene
-  end
-end
+#  elsif ((@s1 == @s2) && (@s1 == @s3) && (@s2 == @s3))
+#    return :equilateral
+#  elsif ((@s1 == @s2) || (@s1 == @s3) || (@s2 == @s3))
+#    return :isosceles
+#  else
+#    return :scalene
+#  end
+#end
 
-class TriangleError < StandardError
+Class TriangleError < StandardError
   def message
     puts "not a triangle"
   end
+end
+
 end
