@@ -33,5 +33,5 @@ def kind
           "Not a valid triangle"
         end
       end
-    
+
     end
