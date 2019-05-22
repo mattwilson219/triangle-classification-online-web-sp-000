@@ -19,9 +19,9 @@ def kind
 
 
 
-  elsif ((@s1 == @s2) && (@s2 == @s3))
+  elsif ((s1 == s2) && (s2 == s3))
      :equilateral
-  elsif ((@s1 == @s2) || (@s2 == @s3) || (@s1 == @s3))
+  elsif ((s1 == s2) || (s2 == s3) || (s1 == s3))
      :isosceles
   else
      :scalene
