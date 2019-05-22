@@ -28,8 +28,10 @@ def kind
       end
     end
 
-class TriangleError < StandardError
-
-end
-
-end
+    class TriangleError < StandardError
+        def message
+          "Not a valid triangle"
+        end
+      end
+    
+    end
